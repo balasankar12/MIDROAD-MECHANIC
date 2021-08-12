@@ -1,0 +1,59 @@
+#map-layer {
+    margin: 20px 0px;
+    max-width: 300px;
+    min-height: 200;
+}
+
+#btnAction {
+    background: #3878c7;
+    padding: 10px 40px;
+    border: #3672bb 1px solid;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 0.9em;
+    cursor:pointer;
+    display:block;
+}
+#btnAction:disabled {
+    background: #6c99d2;
+}
+
+.label {
+    font-size: 16px;
+    color:  #f7f7f7 ;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input {
+    outline: none;
+    margin: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 50%;
+    font-size: 14px;
+    font-family: inherit;
+  }
+
+  .bg-gra-02 {
+    background: -webkit-gradient(linear, left bottom, right top, from(#4a8bcf), to(#6c4079));
+    background: -webkit-linear-gradient(bottom left, #4a8bcf 0%, #6c4079 100%);
+    background: -moz-linear-gradient(bottom left,#4a8bcf 0%, #6c4079 100%);
+    background: -o-linear-gradient(bottom left, #4a8bcf 0%, #6c4079 100%);
+    background: linear-gradient(to top right, #4a8bcf 0%, #6c4079 100%);
+  }
+
+  .butt{
+    background: #2c71c5;
+    padding: 10px 40px;
+    border: #3672bb 1px solid;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 0.9em;
+    cursor:pointer;
+    display:block;
+    margin-top: 20px;
+  }

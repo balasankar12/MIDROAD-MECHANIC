@@ -1,0 +1,44 @@
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 70px;
+    margin-top: 1px;
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .customers tr:hover {background-color: #ddd;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: hsl(229, 74%, 72%);
+    color: white;
+  }
+
+  #myInput {
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin: 70px;
+  }
+
+  .button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: #4a8bcf;
+    color: #ffffff;
+
+  }
